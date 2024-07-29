@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student - Booking System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Student Panel</h1>
+    <div id="student-actions">
+      <button onclick="searchTeacher()">Search Teacher</button>
+      <button onclick="bookAppointment()">Book Appointment</button>
+      <button onclick="sendMessage()">Send Message</button>
+      <button onclick="logout()">Logout</button>
+    </div>
+    <div id="student-content"></div>
+    <script src="firebase-config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
